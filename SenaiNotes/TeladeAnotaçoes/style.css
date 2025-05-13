@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: dimgray;
+}
+
+
+/* .cabecalho {
+    background-color: burlywood;
+    width: 1168px;
+    height: 81px;
+    margin-left: 272px;
+} */
+
+.left-panel {
+    background-color: aqua;
+    width: 272px;
+    height: 950px ;
+    
+}
+
+.caixa-filtros {
+    background-color: cornflowerblue;
+    width: 240px;
+    height: 565px;
+
+}
+
+.width-filtros {
+    background-color: coral;
+    width: 240px;
+    height: 84px;
+}
+
+
+.top-filtros {
+background-color: coral;
+width: 240px;
+height: 463px;
+
+}
+
+.caixa-filtros button {
+    width: 174px;
+    height: 17px;
+    
+}
