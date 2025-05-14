@@ -8,6 +8,7 @@
 
 .container {
     display: flex;
+    justify-content: space-between;
 }
 
 .left-panel {
@@ -56,6 +57,7 @@ height: 463px;
     display: flex;
     align-items: center;
     text-align: left;
+    padding-left: 10px;
     border: none;
     cursor: pointer;
 }
@@ -78,4 +80,24 @@ height: 463px;
 
 .seta {
     padding-left: 80px;
+}
+
+.cabecalho {
+    background-color: chocolate;
+    width: 80%;
+    height: 81px;
+    padding-left: 30px;
+    
+}
+
+.itens-do-cabecalho {
+    background-color: rgb(26, 175, 21);
+     width: 416px;
+     height: 44px;
+}
+
+.caixa-de-pesquisa {
+    background-color: aquamarine;
+    width: 300px;
+    height: 44px;
 }
