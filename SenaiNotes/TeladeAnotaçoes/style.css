@@ -9,8 +9,11 @@
 .container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: nowrap;
+    
 }
 
+   /* Left-Panel */
 .left-panel {
     padding-left: 15px;
     /* background-color: aqua; */
@@ -81,23 +84,79 @@ height: 463px;
 .seta {
     padding-left: 80px;
 }
+   /*  */
 
+        /* Cabeçalho */
 .cabecalho {
-    background-color: chocolate;
-    width: 80%;
+    /* background-color: chocolate; */
+    width: 1300px;
     height: 81px;
-    padding-left: 30px;
+    padding-left: 600px;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    border-bottom: 1px solid #ccc
+    
     
 }
 
 .itens-do-cabecalho {
-    background-color: rgb(26, 175, 21);
+    /* background-color: rgb(26, 175, 21); */
      width: 416px;
      height: 44px;
+     
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.itens-do-cabecalho img {
+    width: 24px;
+    height: 24px;
 }
 
 .caixa-de-pesquisa {
-    background-color: aquamarine;
+    /* background-color: white; */
     width: 300px;
-    height: 44px;
+    height: 45px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc
+
+   
 }
+
+.caixa-de-pesquisa input {
+    width: 276px;
+    height: 40px;
+    
+    border-radius: 10px;
+    padding: 3px;
+    border: none;
+    outline: none;
+}
+        /*  */
+
+        /* Central-panel */
+.create-new-note {
+    display: flex;
+    background-color: aqua;
+    width: 1300px;
+    height: 818px;
+}
+
+.left-create {
+    background: #717784;
+    width: 1000px;
+    height: 818px;
+}
+
+.central-panel {
+    background-color: blue;
+    width: 1300px;
+    height: 818;
+}
+
