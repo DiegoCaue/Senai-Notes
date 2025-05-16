@@ -141,22 +141,7 @@ height: 463px;
         /*  */
 
         /* Central-panel */
-.create-new-note {
-    display: flex;
-    background-color: aqua;
-    width: 1300px;
-    height: 818px;
-}
 
-.left-create {
-    background: #717784;
-    width: 1000px;
-    height: 818px;
-}
 
-.central-panel {
-    background-color: blue;
-    width: 1300px;
-    height: 818;
-}
+
 

@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    height: 100vh; /*Faz com que ocupa a tela completa do body*/
+    /* background-color: darkgray; */
+     
+    display: flex; /*Habilita os alinhamentos*/
+    align-items: center; /*alinhou verticalmente*/
+    justify-content: center; /*alinhou horizontamente*/
+    
+}
+
+.caixa-do-login {
+   /* background-color: #ccc; */
+   width: 540px;
+   height: 503px;
+   border: 1px solid #ccc; 
+   box-shadow: 0px 0px 10px 1px #333; /*Sombreamento*/
+   border-radius: 10%; /*arredondar bordas*/
+
+   font-family: "Inter";
+
+   display: grid;
+   justify-content: center;
+   align-items: center;
+
+}
+
+.logodoSenai {
+    /* background-color: blueviolet; */
+    width: 444px;
+    height: 38px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Welcome  {
+    /* background-color: red; */
+    width: 444px;
+    height: 55px;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-de-logar {
+    /* background-color: blue; */
+    width: 444px;
+    height: 232px;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.email  {
+    /* background-color: aqua; */
+    width: 444px;
+    height: 65px;
+
+    font-size: 14px;
+
+}
+
+
+.email input {
+    width: 444px;
+    height: 42px;
+    border-radius: 8px;
+    border: 0.5px rgb(198, 188, 188) solid;
+
+
+    padding: 3% 4%;
+}
+
+
+.password {
+    /* background-color: aqua; */
+    width: 444px;
+    height: 65px;
+    
+    font-size: 14px;
+}
+
+.btn-password {
+    background-color: white;
+    border: none;
+}
+
+.btn-password p {
+    color: #525866;
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.caixa-input {
+    background-color: white;
+    width: 444px;
+    height: 44px;
+    border-radius: 8px;
+    border: 0.5px rgb(198, 188, 188) solid;
+}
+
+.caixa-input img {
+    position: absolute;
+    margin-top: 10px;
+}
+
+
+.password input {
+    width: 400px;
+    height: 42px;
+    border-radius: 8px;
+    border: none;
+
+    padding: 3% 4%;
+
+}
+
+.text-password {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-password img {
+
+    
+}
+
+.barra {
+    background-color:#5f6265 ;
+    width: 444px;
+    height: 0.5px;
+    border: 0.5px rgb(198, 188, 188) solid;
+}
+
+.btn {
+    background-color: #335CFF;
+    width: 444px;
+    height: 44px;
+    border: #335CFF;
+    border-radius: 8px;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn p {
+    
+    width: 42px;
+    height: 19px;
+    font-size: 16px;
+    color: white;
+}
+
+.Cadastrar {
+    /* background-color: coral; */
+    width: 444px;
+    height: 18px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Cadastrar p {
+    padding: 3px;
+}
+
+.btn-SignUp {
+    background-color: white;
+    border: none;
+}
+
+.btn-SignUp p {
+    font-size: 14px;
+}
+
+.text-rigth {
+    color: #525866;
+}
+
+.Welcome p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #525866;
+    font-size: 14px;
+}
