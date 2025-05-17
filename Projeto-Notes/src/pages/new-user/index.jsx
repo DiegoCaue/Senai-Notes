@@ -1,18 +1,20 @@
-import "./login.css"
-import logo from "../../assets/imgs/senaiNotesLogo.svg"
+import "./new-user.css"
 
 
+function NewUser () {
 
-function Login () {
     return (
         <>
-<div class="caixa-do-login">
-        <div class="logodoSenai"><img src={logo} alt=""/></div>
+         <div class="caixa-do-login">
+        <div class="logodoSenai"><img src="../Arquivos/Logo Wrapper.svg" alt=""/></div>
 
-        <div class="Welcome">
-            <h2>Welcome to Note</h2>
-            <p>Please log in to continue</p>
+        <div class="welcome">
+        <div class="subtitulo">
+            <h2>Create Your Account</h2> 
         </div>
+        <p>Sign up to start organizing your notes and boost your productivity.</p>
+        
+    </div>
 
         <div class="caixa-de-logar">
 
@@ -34,8 +36,12 @@ function Login () {
 
                     <div class="input-password">
                         <input type="password"/>
-                    
+                        <img src="../SenaiNotes/assets/img/ocutarSenha.svg" alt=""/>
                     </div>
+                  <div class="caracteres">
+                    <img src="../SenaiNotes/assets/img/info circle.svg" alt="" />
+                  
+                  </div>
 
                 </div>
 
@@ -51,16 +57,17 @@ function Login () {
 
         <div class="Cadastrar">
             <div class="text-rigth">
-                <p>No account yet?</p>
+                <p>Already have an account?</p>
             </div>
             <button class="btn-SignUp">
-                <p>Sign Up</p>
+                <p>Login</p>
             </button>
         </div>
 
     </div>
         </>
     )
+
 }
 
-export default Login
+export default NewUser

@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    flex-wrap: nowrap;
+}
+
+.container {
+    display: flex;
+    
+}
+
+   /* Left-Panel */
+.left-panel {
+    padding-left: 15px;
+    /* background-color: aqua; */
+    width: 272px;
+    height: 950px ;
+    border-right: 1px solid #ccc;
+    color: #717784;
+    font-size: 14px;
+}
+
+.caixa-filtros {
+    width: 240px;
+    height: 565px;
+    font-family: "Inter";
+}
+
+.width-filtros {
+    width: 240px;
+    height: 84px;}
+
+.espaçamento {
+    width: 240px;
+    height: 10px;
+}
+
+.center {
+    /* background-color: blueviolet; */
+     border-top: 1px solid #ccc;
+    height: 20px;
+}
+
+.top-filtros {
+/* background-color: coral; */
+width: 240px;
+height: 463px;
+
+}
+.caixa-filtros button  {
+    background-color: #ccc;
+    width: 240px;
+    height: 40px;
+
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    padding-left: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.width-filtros :hover, .top-filtros :hover {
+    background-color: rgb(158, 156, 156);
+    color: white;
+}
+
+.width-filtros, .top-filtros {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.width-filtros img, .top-filtros img {
+    padding-right: 10px;
+}
+
+.seta {
+    padding-left: 80px;
+}
+   /*  */
+
+        /* Cabeçalho */
+.cabecalho {
+    /* background-color: chocolate; */
+    width: 1650px;
+    height: 81px;
+    padding-left: 1130px;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    border-bottom: 1px solid #ccc
+    
+    
+}
+
+.itens-do-cabecalho {
+    /* background-color: rgb(26, 175, 21); */
+     width: 416px;
+     height: 44px;
+     
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+.itens-do-cabecalho img {
+    width: 24px;
+    height: 24px;
+}
+
+.caixa-de-pesquisa {
+    /* background-color: white; */
+    width: 300px;
+    height: 45px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc
+
+   
+}
+
+.caixa-de-pesquisa input {
+    width: 276px;
+    height: 40px;
+    
+    border-radius: 10px;
+    padding: 3px;
+    border: none;
+    outline: none;
+}
+        /*  */
+
+        /* Central-panel */
+
+
+.create-new-note {
+    /* background-color: chocolate; */
+    width: 1650px;
+    height: 872px;
+    display: flex;
+
+    
+
+}
+
+.left-create {
+    /* background-color: aqua; */
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 350px;
+    height: 872px
+    
+    
+    
+
+
+}
+
+.left-create button {
+    cursor: pointer;
+    background-color: #335CFF;
+    width: 242px;
+    height: 41px;
+    border-radius: 10px;
+    border: none;
+
+    color: white;
+}
+
+.central-panel {
+    /* background-color: blue; */
+    width: 900px;
+    height: 872px;
+    border-left: 1px solid #ccc;
+
+}
+
+.rigth-panel {
+    /* background-color: aqua; */
+    width: 350px;
+    height: 872px;
+    border-left: 1px solid #ccc;
+
+
+}

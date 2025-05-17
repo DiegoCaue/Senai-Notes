@@ -43,11 +43,21 @@ body {
     justify-content: center;
 }
 
-.Welcome  {
+.subtitulo  {
     /* background-color: red; */
     width: 444px;
     height: 55px;
 
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome  {
+    /* background-color: red; */
+    width: 444px;
+    height: 55px;
+    font-size: 14px;
     display: grid;
     align-items: center;
     justify-content: center;
@@ -133,12 +143,12 @@ body {
     justify-content: space-between;
 }
 
-.barra {
+/* .barra {
     background-color:#5f6265 ;
     width: 444px;
     height: 0.5px;
     border: 0.5px rgb(198, 188, 188) solid;
-}
+} */
 
 .btn {
     background-color: #335CFF;
