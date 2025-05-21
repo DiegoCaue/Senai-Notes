@@ -104,6 +104,8 @@ height: 463px;
     
 }
 
+
+
 .itens-do-cabecalho {
     /* background-color: rgb(26, 175, 21); */
      width: 416px;
@@ -195,5 +197,19 @@ height: 463px;
     height: 872px;
     border-left: 1px solid #ccc;
 
+    margin-top: 15px;
+    padding: 10px;
+    
 
+
+}
+
+.rigth-panel button {
+    width: 242px;
+    height: 44px;
+    border-radius: 10px;
+}
+
+.buttom-rigtch {
+    
 }

@@ -10,6 +10,8 @@ import Vector from "../../assets/imgs/Vector.svg"
 
 function Note () {
 
+    
+
     return (
         <>
         <div class="container">
@@ -59,9 +61,14 @@ function Note () {
         </nav>
 
         <div class="Organanizar-Panel">
-            <header class="cabecalho">
 
+            
+            <header class="cabecalho">
+                
+
+           <div className="TituloCabecalho"></div> 
                 <div class="itens-do-cabecalho">
+                    
                     <div class="caixa-de-pesquisa">
                         <img src={Search} alt=""/>
                         <input type="text" placeholder="Search by title, content, or tags…"/>
@@ -85,7 +92,10 @@ function Note () {
                     </div>
 
                     <div class="rigth-panel">
-
+                        <div className="buttom-rigtch">
+                        <button>Archive Note</button>
+                        <button>Delete Note</button>
+                        </div>
                     </div>
                 </main>
             </div>
